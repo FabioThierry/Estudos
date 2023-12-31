@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em Html5</title>
+</head>
+<body>
+    <h1>Imagen Dinâmica</h1>
+    <p>Tentando abrir diferentes imagens em resoluções diferentes</p>
+
+    <picture>
+        <source media="(max-width: 710px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <P>Vamos aprende a reproduzir áudios em HTML5.</P>
+    <!--<audio src="media/emotional-damage-meme.mp3" controls autoplay></audio> -->
+    <audio preload="metadata" autoplay controls>
+        <source src="media/emotional-damage-meme.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
