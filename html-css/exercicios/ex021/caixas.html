@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-image: linear-gradient(45deg, #ff00002c, #ffff002f, rgba(0, 128, 0, 0.308));
+            margin: auto;
+            position: relative;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            /* width: 600px; */
+            background-color: #ff00002c;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 2px 8px 1px rgba(0, 0, 0, 0.452);
+            border-radius: 10px;
+        }
+        nav {
+        
+            text-align: center;
+            box-shadow: 5px 2px 8px 1px rgba(0, 0, 0, 0.452);
+            border-radius: 10px;
+            padding: 10px 10px;
+            height: auto;
+            width: 10em;
+            margin: auto;
+            
+        }
+
+        nav a {
+            text-align: center;
+            padding: 0px;
+            margin: auto;
+            text-decoration: none;
+            color: black;
+        }
+
+        ul {
+            text-align: center;
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 3px;
+            /* border-radius: 10px; */
+            /* border-style: solid; */
+        }
+
+        ul li:hover {
+            background: rgb(255, 255, 255);
+            border-radius: 20px;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+
+        ul li ul {
+            position: absolute;
+            width: 60px;
+            display: none;
+            
+        }
+
+        ul li ul li {
+
+            background: rgb(255, 255, 255);
+            display: block;
+            border-radius: 10px;
+
+        }
+
+        ul li ul li a {
+            display: block !important;
+        }
+
+        ul li ul li:hover {
+            background: lightgreen;
+        }
+
+
+        /* nav > a::before {
+            content: "--->";
+        }
+        nav > a::after {
+            content: "<---";
+        }
+        nav > a:active {
+            color: yellow;
+        } */
+
+
+        main {
+            background-color: #ffff002f;
+            padding: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        main p {
+            text-align: justify;
+            padding: 20px;
+        }
+
+        article {
+            background-color: rgba(255, 255, 255, 0.493);
+        }
+
+        article > aside {
+            background-color: lightgreen;
+            border-radius: 10px 20px;
+            box-shadow: 5px 2px 8px 1px rgba(0, 0, 0, 0.452);
+            padding: 10px;
+            margin: auto;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            background-color: #141414;
+            padding: 0px;
+            margin: 0px;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            
+        }
+
+        footer > p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Início</a>
+            <ul>
+                <li>
+                    <a href="#">Menu</a>
+                    <ul>
+                        <li><a href="#1">Link1</a></li>
+                        <li><a href="#2">Link2</a></li>
+                        <li><a href="#3">Link3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Artigo Título #01</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id voluptatem molestiae rerum sapiente
+                    dignissimos temporibus, cum, suscipit quos quibusdam tempora necessitatibus esse obcaecati
+                    distinctio debitis. Vitae quae dignissimos sed.</p>
+            </article>
+            <article>
+                <h2>Artigo TÍtulo #02</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iusto fugit officiis dicta
+                    harum, tenetur molestiae velit dolorum illo maiores eos reprehenderit ex placeat earum quam fugiat
+                    ullam consectetur nostrum!</p>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum mollitia dolore corrupti
+                        doloribus! Voluptatibus nisi provident quibusdam eum repellat facilis vero consectetur, modi
+                        aliquid cum, dolorem consequatur ipsum aspernatur architecto?</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por Fábio Thierry</p>
+    </footer>
+</body>
+
+</html>
