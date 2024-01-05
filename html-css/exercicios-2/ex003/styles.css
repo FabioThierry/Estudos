@@ -1,0 +1,21 @@
+
+table, td, th{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+table {
+    font-size: medium;
+    /* border-collapse: collapse; */
+    font-weight: lighter;
+}
+table tr:first-child {
+    background-color: lightslategray;
+    color: black;
+    font-weight: bolder;
+}
+table tr:nth-child(2n+3) {
+    background-color: lightgrey;
+}
+ul {
+    list-style-type: square;
+}
