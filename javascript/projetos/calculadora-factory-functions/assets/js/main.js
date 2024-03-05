@@ -32,7 +32,7 @@ function criaCalculadora() {
         conta = eval(conta);
 
         if (!conta) {
-          alert("Conta inválida");
+          alert("Conta Inválida");
           return;
         }
 
@@ -43,7 +43,7 @@ function criaCalculadora() {
       }
     },
 
-    clearDisplay() {
+    ClearDisplay() {
       this.display.value = "";
     },
 
@@ -60,7 +60,7 @@ function criaCalculadora() {
         }
 
         if (el.classList.contains("btn-clear")) {
-          this.clearDisplay();
+          this.ClearDisplay();
         }
 
         if (el.classList.contains("btn-del")) {

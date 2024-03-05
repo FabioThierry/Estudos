@@ -12,12 +12,12 @@ function criaPessoa(nome, sobrenome, a, p) {
 
     // Setter
     set nomeCompleto(valor) {
-      valor = valor.split(' ');
+      valor = valor.split(" ");
       this.nome = valor.shift();
-      this.sobrenome = valor.join(' ');
+      this.sobrenome = valor.join(" ");
     },
 
-    fala(assunto = 'falando sobre NADA') {
+    fala(assunto = "falando sobre NADA") {
       return `${this.nome} está ${assunto}.`;
     },
 
@@ -26,17 +26,18 @@ function criaPessoa(nome, sobrenome, a, p) {
 
     // Getter
     get imc() {
-      const indice = this.peso / (this.altura ** 2);
+      const indice = this.peso / this.altura ** 2;
       return indice.toFixed(2);
-    }
+    },
   };
 }
 
-const p1 = criaPessoa('Luiz', 'Otávio', 1.8, 80);
-const p2 = criaPessoa('João', 'Otávio', 1.90, 57);
-const p3 = criaPessoa('Junior', 'Otávio', 1.5, 110);
+const p1 = criaPessoa("Luiz", "Otávio", 1.8, 80);
+const p2 = criaPessoa("João", "Otávio", 1.9, 57);
+const p3 = criaPessoa("Junior", "Otávio", 1.5, 110);
 
+p1.nomeCompleto = "Fábio Thierry Domingues da Silva";
 console.log(p1.imc);
+console.log(p1.nome);
 console.log(p2.imc);
 console.log(p3.imc);
-
