@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 
 public class App {
 
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args) {
     int escolha;
     double notasLidas;
     double media;
@@ -26,7 +26,7 @@ public class App {
         );
       alunos = Double.parseDouble(quantidade);
       while (notasLidas <= alunos) {
-        nota = JOptionPane.showInputDialog("Entre com a Nota:");
+        nota = JOptionPane.showInputDialog("Digite a Nota:");
         valorNota = Double.parseDouble(nota);
         total = total + valorNota;
         notasLidas = notasLidas + 1;
