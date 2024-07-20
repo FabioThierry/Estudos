@@ -1,6 +1,6 @@
 class HomeController {
-  index(req, res) {
-    res.json({ message: "Hello World!" });
+  async index(req, res) {
+    res.json("index");
   }
 }
 
