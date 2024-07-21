@@ -1,0 +1,58 @@
+.tarefas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 1rem;
+}
+
+.tarefas li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarefas li div {
+  display: flex;
+  align-items: center;
+}
+
+.tarefas li:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.tarefas li div button {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  background: none;
+  border: none;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tarefas li div button:first-child {
+  margin-left: 0;
+  color: #1564cc;
+  background: #f8f8f8;
+}
+
+.tarefas li div button:last-child {
+  margin-right: 0;
+  color: #941225;
+  background: #f8f8f8;
+}
+
+.tarefas li div button:hover {
+  background: #333;
+  border-radius: 5px;
+  /* color: #b82424; */
+}
