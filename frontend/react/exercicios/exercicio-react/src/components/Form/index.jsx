@@ -1,26 +1,28 @@
-import PropTypes from "prop-types";
-import { FaPlus } from "react-icons/fa";
+// ! Old Code from exercises
 
-import "./Form.css";
+// import PropTypes from "prop-types";
+// import { FaPlus } from "react-icons/fa";
 
-export default function Form({ handleChange, handleSubmit, novaTarefa = "" }) {
-  return (
-    <form action="#" className="form" onSubmit={handleSubmit}>
-      <input
-        onChange={handleChange}
-        value={novaTarefa}
-        type="todo"
-        placeholder="Adicione uma tarefa"
-      />
-      <button type="submit">
-        <FaPlus />
-      </button>
-    </form>
-  );
-}
+// import "./Form.css";
 
-Form.propTypes = {
-  handleChange: PropTypes.func.isRequired,
-  handleSubmit: PropTypes.func.isRequired,
-  novaTarefa: PropTypes.string,
-};
+// export default function Form({ handleChange, handleSubmit, novaTarefa = "" }) {
+//   return (
+//     <form action="#" className="form" onSubmit={handleSubmit}>
+//       <input
+//         onChange={handleChange}
+//         value={novaTarefa}
+//         type="todo"
+//         placeholder="Adicione uma tarefa"
+//       />
+//       <button type="submit">
+//         <FaPlus />
+//       </button>
+//     </form>
+//   );
+// }
+
+// Form.propTypes = {
+//   handleChange: PropTypes.func.isRequired,
+//   handleSubmit: PropTypes.func.isRequired,
+//   novaTarefa: PropTypes.string,
+// };

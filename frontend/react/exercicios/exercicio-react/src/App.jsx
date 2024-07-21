@@ -1,5 +1,7 @@
 import { useState } from "react";
-import Main from "./components/Main";
+// import Main from "./components/Main";
+import Header from "./components/Header/Header";
+import TaskList from "./components/TaskList/TaskList";
 
 import "./App.css";
 
@@ -8,9 +10,13 @@ function App() {
   useState(0);
 
   return (
-    <>
-      <Main />
-    </>
+    // <>
+    //   <Main />
+    // </>
+    <div className="app">
+      <Header />
+      <TaskList />
+    </div>
   );
 }
 
