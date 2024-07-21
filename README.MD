@@ -25,6 +25,7 @@ Este repositório é dedicado aos meus estudos em programação, abrangendo uma 
   - **Web (HTML e CSS)**: Exemplos de código e projetos web utilizando HTML e CSS, com exemplos de layouts e estilizações.
 
   - **React**: Exemplos de código e projetos desenvolvidos em React, com aprendizados em componentes, estado, props e rotas.
+    - Projeto [**Lista de Tarefas**](https://deplylistatarefas-fabio-thierrys-projects.vercel.app/)
 
 Este repositório é um espaço para documentar meu progresso, compartilhar conhecimento e colaborar com outros estudantes interessados em programação.
 
