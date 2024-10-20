@@ -20,6 +20,7 @@ Este repositório é dedicado aos meus estudos em programação, abrangendo uma 
 
 - **Python**: Exemplos de código e projetos desenvolvidos em Python, com foco em funções, estruturas de dados e web scraping.
 
+[![py](https://skillicons.dev/icons?i=html&theme=light)](https://skillicons.dev) [![py](https://skillicons.dev/icons?i=css&theme=light)](https://skillicons.dev) [![py](https://skillicons.dev/icons?i=react&theme=light)](https://skillicons.dev)
 - **Front-end**:
 
   - **Web (HTML e CSS)**: Exemplos de código e projetos web utilizando HTML e CSS, com exemplos de layouts e estilizações.
@@ -29,6 +30,3 @@ Este repositório é dedicado aos meus estudos em programação, abrangendo uma 
 
 Este repositório é um espaço para documentar meu progresso, compartilhar conhecimento e colaborar com outros estudantes interessados em programação.
 
-# Repositório de Estudos em Programação
-
-Este repositório contém uma coleção de estudos e projetos relacionados a diversas linguagens e tecnologias de programação.
