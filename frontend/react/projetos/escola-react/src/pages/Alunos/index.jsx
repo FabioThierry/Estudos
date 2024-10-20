@@ -1,9 +1,15 @@
 import React from "react";
-import Link from "react-router-dom/Link";
+import { Link } from "react-router-dom";
 import axios from "../../services/axios";
 import { get } from "lodash";
+import { toast } from "react-toastify";
 
-import { FaUserCircle, FaEdit, FaWindowClose } from "react-icons/fa";
+import {
+  FaUserCircle,
+  FaEdit,
+  FaWindowClose,
+  FaExclamation,
+} from "react-icons/fa";
 import { Container } from "../../styles/GlobalStyles";
 import { AlunoContainer, ProfilePicture } from "./styled";
 
@@ -23,6 +29,18 @@ export default function Alunos() {
 
     getAlunos();
   }, []);
+
+  const handleDelete = async (e, id) => {
+    try {
+      e.target.parentElement.remove();
+
+      await axios.delete(`/alunos/${id}`);
+    } catch (e) {
+      const errors = get(e, "response.data.errors", []);
+      errors.map((error) => toast.error(error));
+      console.log(e);
+    }
+  };
 
   return (
     <Container>
@@ -50,9 +68,13 @@ export default function Alunos() {
               <FaEdit size={16} />
             </Link>
 
-            <Link to={`/aluno/${aluno.id}/delete`}>
+            <Link
+              onClick={(e) => handleDelete(e, aluno.id)}
+              to={`/aluno/${aluno.id}/delete`}
+            >
               <FaWindowClose size={16} />
             </Link>
+            <FaExclamation size={16} display="none" cursor="pointer" />
           </div>
         ))}
       </AlunoContainer>
