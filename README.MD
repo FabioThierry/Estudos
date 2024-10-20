@@ -13,8 +13,8 @@ Este repositório é dedicado aos meus estudos em programação, abrangendo uma 
 
 - **JavaScript**: Exemplos de código e projetos desenvolvidos em JavaScript, incluindo uma agenda e uma API REST para gerenciamento de uma escola.
 
-  - [**Agenda**](javascript/projetos/agenda/README.md)
-  - [**REST API (Escola)**](javascript/projetos/rest-api/README.md)
+  - [**Agenda**](javascript/projetos/agenda/)
+  - [**REST API (Escola)**](javascript/projetos/rest-api)
 
 [![py](https://skillicons.dev/icons?i=python&theme=light)](https://skillicons.dev)
 
