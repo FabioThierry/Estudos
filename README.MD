@@ -6,14 +6,14 @@ Este repositório é dedicado aos meus estudos em programação, abrangendo uma 
 
 - **Java** : Foi a primeira linguagem que utilizei para de fato programar, realizei vários exercicios durante a realização do curso. Recentimente refatorei os exercicios encontrados em uma apostila e adicionei neste repositório, sendo um jogo simples e um cadastro de fornecedores.
 
-  - [**DT Game**](java/projetos/%20JogoSimples/README.md)
-  - [**Cadastro Fornecedores**](java/projetos/CadastroFornecedores/README.md)
+  - [**DT Game**](java/projetos/%20JogoSimples)
+  - [**Cadastro Fornecedores**](java/projetos/CadastroFornecedores)
 
 [![Javascript](https://skillicons.dev/icons?i=javascript&theme=light)](https://skillicons.dev)
 
 - **JavaScript**: Exemplos de código e projetos desenvolvidos em JavaScript, incluindo uma agenda e uma API REST para gerenciamento de uma escola.
 
-  - [**Agenda**](javascript/projetos/agenda/)
+  - [**Agenda**](javascript/projetos/agenda)
   - [**REST API (Escola)**](javascript/projetos/rest-api)
 
 [![py](https://skillicons.dev/icons?i=python&theme=light)](https://skillicons.dev)
