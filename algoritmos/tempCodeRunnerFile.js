@@ -1,0 +1,1 @@
+console.log(pesquisa_binaria(array, -1));
